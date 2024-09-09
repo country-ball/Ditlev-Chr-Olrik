@@ -1,0 +1,161 @@
+.toppNavigasjon #Logo {
+    width: 20%;
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.toppNavigasjon #blaabar {
+    background-color: cornflowerblue;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.toppNavigasjon #blaabar a {
+    color: white;
+    margin-left: 10px;
+}
+
+.toppNavigasjon #navBar ul {
+    font-size: 130%;
+    font-weight: 110;
+    list-style-type: none;
+    margin: 0;
+    padding: 25px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.toppNavigasjon #navBar ul a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 32px;
+    text-decoration: none;
+}
+
+.toppNavigasjon #navBar ul #soek {
+    float: right;
+}
+
+.toppNavigasjon #navBar ul a:hover {
+    background-color: hsl(219, 79%, 66%, 0.1);
+    color: cornflowerblue;
+    border-bottom: 2px solid hsl(219, 79%, 66%);
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.flexbox1,
+.flexbox2 {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(230, 241, 248);
+}
+
+.flexbox1 h1 {
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.searcharea {
+    float: right;
+    padding: 15px;
+    border: 2px solid rgb(54, 123 180);
+    margin-top: 8px;
+    margin-right: 2%;
+    font-size: 25px;
+    border-radius: 50px;
+    width: 70%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.buttoncontainer {
+    float: right;
+    padding-left: 24%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 3%;
+}
+
+.btn {
+    background-color: #367ab8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn:hover {
+    background-color: #2d6597;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.grid-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+
+}
+
+.footer {
+    box-sizing: border-box;
+    background-color: rgb(54, 123, 180);
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    padding: 10px;
+    color: azure;
+}
